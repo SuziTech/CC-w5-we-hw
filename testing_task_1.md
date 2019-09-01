@@ -10,7 +10,7 @@ class CardGame
   def checkforAce(card) # function named in Camel case standard for Ruby is
                         # 'snake' case. Capital 'A' could cause problems -
                         # mistaken as part of Class definition?
-    if card.value = 1
+    if card.value = 1   # '=' is assignment; '==' is a test of equivalence
       return true
     else
       return false
@@ -19,7 +19,7 @@ class CardGame
 
   dif highest_card(card1 card2) # 'dif' instead of 'def' typo for function definition.
   if card1.value > card2.value # no indentation after function def statement.
-    return card
+    return card # not card1 or card2 has to return one of them not just 'card'
   else
     return card2
   end
